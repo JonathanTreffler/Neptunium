@@ -6,7 +6,7 @@
 
     <groupId>org.aurora</groupId>
     <artifactId>neptunium</artifactId>
-    <version>1.0</version>
+    <version>1.0E</version>
     <packaging>jar</packaging>
     <name>neptunium</name>
 
