@@ -1,0 +1,17 @@
+# Timezone in which the broadcast messages will be in
+timezone: "UTC"
+
+# DATES ARE IN THE UTC TIMEZONE
+# Example Date: '1999-12-31T23:59:59Z'
+
+nether-lock:
+  # Whether Nether portals are locked
+  locked: false
+  # UTC Timestamp for when Nether portals get unlocked
+  date: '2000-01-01T00:00:00Z'
+
+end-lock:
+  # Whether End portals are locked
+  locked: false
+  # UTC Timestamp for when End portals get unlocked
+  date: '2000-01-01T00:00:00Z'

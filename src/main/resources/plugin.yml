@@ -1,0 +1,12 @@
+name: Neptunium
+version: '1.0'
+main: org.aurora.neptunium.Main
+api-version: '1.21'
+load: STARTUP
+commands:
+  dimensionlock:
+    description: Shows the dimension lock/unlock times.
+    usage: /dimensionlock
+    aliases: [dl]
+  print-logs:
+    usage: /print-logs [logname]
