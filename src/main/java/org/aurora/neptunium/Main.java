@@ -47,7 +47,7 @@ public final class Main extends JavaPlugin implements TabExecutor {
 /**/    logsFolder = new File(getDataFolder().getParentFile().getParentFile(), "logs");
 /**/    if (!logsFolder.exists()) logsFolder.mkdirs();
 
-/**/    getCommand("print-logs").setExecutor(new ExtraCommands());
+/**/    //getCommand("print-logs").setExecutor(new ExtraCommands());
 
         saveDefaultConfig();
         loadConfig();
